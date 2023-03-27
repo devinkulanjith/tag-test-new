@@ -3,7 +3,7 @@
 
 for i in 1 2 3 4 5
 do
-   echo "Welcome $i times"
+   . "$(dirname "$0")/_/husky.sh"
 done
 
 npx --no-install commitlint --edit "$1"
