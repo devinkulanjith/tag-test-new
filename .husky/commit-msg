@@ -1,7 +1,11 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
-. "$(dirname "$1")/_/husky.sh"
+
+for i in 1 2 3 4 5
+do
+   echo "Welcome $i times"
+done
 
 npx --no-install commitlint --edit "$1"
-npx --no-install commitlint --edit "$2"
+
 
