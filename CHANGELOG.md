@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.6](https://github.com/devinkulanjith/tag-test-new/compare/v1.3.5...v1.3.6) (2023-03-27)
+
+
+### Bug Fixes
+
+* add test msg 6 ([996bec9](https://github.com/devinkulanjith/tag-test-new/commit/996bec979020af3c204e79f35cd8a69a57b46035))
+
 ### [1.3.5](https://github.com/devinkulanjith/tag-test-new/compare/v1.3.4...v1.3.5) (2023-03-27)
 
 
