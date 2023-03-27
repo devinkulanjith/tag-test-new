@@ -9,17 +9,18 @@
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
-    "release:major": "standard-version --release-as major"
+    "release:major": "standard-version --release-as major",
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@commitlint/cli": "^12.1.1",
-    "@commitlint/config-conventional": "^12.1.1",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "husky": "^6.0.0",
     "standard-version": "^9.2.0"
   },
   "devDependencies": {
-    "husky": "^6.0.0"
+    "husky": "^8.0.0"
   }
 }
